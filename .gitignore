@@ -1,0 +1,40 @@
+# Blender backups and autosaves
+*.blend1
+*.blend2
+*.bck
+.blend@*
+
+# Scratch, test and intermediate iteration scripts
+assemble_step*.py
+apply_*.py
+fine_tune_*.py
+fix_*.py
+perfect_*.py
+update_*.py
+finalize_*.py
+test_*.py
+test_*.png
+
+# Legacy draft files
+fetch_osm.py
+osm_roads.json
+build_iitkgp_rapido.py
+build_full_iitkgp_animation.py
+render_scene_stills.py
+iitkgp_rapido.blend
+iitkgp_rapido.glb
+animation_preview_frame.png
+iitkgp_rapido_render.png
+scene*.png
+rapido_captain_gps.png
+rapido_phone_ui.png
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
